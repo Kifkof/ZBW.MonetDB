@@ -57,7 +57,7 @@ namespace MonetDB
 
         private static void ReCreateTablePerson(MonetDbConnection conn)
         {
-            var cmd = new MonetDbCommand("DROP TABLE Person;", conn);
+            var cmd = new MonetDbCommand("DROP TABLE IF EXISTS Person;", conn);
             cmd.ExecuteNonQuery();
 
             cmd = new MonetDbCommand(@"CREATE TABLE Person(
