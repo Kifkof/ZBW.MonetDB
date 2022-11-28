@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonetDB", "MonetDB\MonetDB.csproj", "{DFFF1ED4-B169-4B6B-AA12-445AEC2ACE7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{57EF26A6-C556-4332-9EBF-459E09E3FA8E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\compose\docker-compose.yml = ..\..\compose\docker-compose.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFFF1ED4-B169-4B6B-AA12-445AEC2ACE7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFFF1ED4-B169-4B6B-AA12-445AEC2ACE7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFFF1ED4-B169-4B6B-AA12-445AEC2ACE7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFFF1ED4-B169-4B6B-AA12-445AEC2ACE7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F82B1D6-9BB8-4B5E-A5D8-8ADC33ABD389}
+	EndGlobalSection
+EndGlobal
