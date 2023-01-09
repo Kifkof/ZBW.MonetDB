@@ -30,7 +30,9 @@ docker exec -it monetdb monetdb start demo
 ### Verify Database
 
 Um zu überprüfen ob die Datenbank läuft kann folgender Befehl ausgeführt werden um auf das CLI zuzugreiffen.
+
 User: monetdb
+
 Password: monetdb
 
 ```
@@ -45,7 +47,8 @@ SELECT 'hello world';
 
 ## Demo
 
-Führe zuerst alle Schritte im Getting Started aus.
+**Führe zuerst alle Schritte im Getting Started aus.**
+
 Nun kann die Solution im Ordner: "...\src\MonetDB" geöffnet werden.
 Das Projekt sollte einfach gestartet werden können.
 
